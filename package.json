@@ -8,23 +8,33 @@
         "vscode": "^1.28.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.sayHello",
+        "onLanguage:yorlang"
     ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
     "main": "./out/extension",
     "contributes": {
         "languages": [
             {
                 "id": "yorlang",
-                "configuration": "./language-configuration.json"
+                "aliases": ["Yorlang", "Yorl"],
+                "configuration": "./language-configuration.json",
+                "extensions": [".yorl"]
             }
         ],
         "grammars": [
             {
                 "language": "yorlang",
-                "path": "./syntaxes/yorlang.tmLanguage.json"
+                "path": "./syntaxes/yorlang.tmLanguage.json",
+                "scopeName": "source.yorlang"
             }
         ],
         "commands": [
@@ -47,5 +57,14 @@
         "tslint": "^5.8.0",
         "@types/node": "^8.10.25",
         "@types/mocha": "^2.2.42"
+    },
+    "homepage": "https://github.com/Microsoft/vscode-wordcount/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-wordcount/issues",
+        "email": "smcbreen@microsoft.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/vscode-wordcount.git"
     }
 }

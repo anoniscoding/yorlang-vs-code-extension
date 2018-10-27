@@ -21,6 +21,8 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('Hello World!');
     });
 
+    //let yorlang = vscode.languages.registerHoverProvider
+
     context.subscriptions.push(disposable);
 }
 
