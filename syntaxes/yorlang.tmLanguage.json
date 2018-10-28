@@ -13,6 +13,9 @@
         },
         {
             "include": "#booleanLiteral"
+        },
+        {
+            "include": "#numLiteral"
         }
     ],
     "repository": {
@@ -36,7 +39,11 @@
         },
         "booleanLiteral": {
             "match": "(\\s*)(òótó|iró)\\b",
-            "name": "constant.language.boolean.sqf"
+            "name": "constant.language.boolean.yorlang"
+        },
+        "numLiteral": {
+            "match": "([0-9]+)\\b",
+            "name": "constant.numeric.yorlang"
         }
     },
     "scopeName": "source.yorlang"
