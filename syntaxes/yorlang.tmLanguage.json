@@ -12,10 +12,7 @@
             "include": "#comment"
         },
         {
-            "include": "#comparisonOperator"
-        },
-        {
-            "include": "#manipulativeOperator"
+            "include": "#booleanLiteral"
         }
     ],
     "repository": {
@@ -24,7 +21,7 @@
             "patterns":
              [{
                 "name": "keyword.control.yorlang",
-                "match": "\\b(tí|sọpé|òótó|iró|iṣé|nígbàtí|tàbí|fún|padà|kúrò|ṣé|yí|ẹjó|padàsí)\\b"
+                "match": "\\b(tí|sọpé|iṣé|nígbàtí|tàbí|fún|padà|kúrò|ṣé|yí|ẹjó|padàsí)\\b"
             }]
         },
         "strings": 
@@ -36,6 +33,10 @@
         "comment": {
             "match": "(#).*$\\n?",
             "name": "comment.line.yorlang"
+        },
+        "booleanLiteral": {
+            "match": "(\\s*)(òótó|iró)\\b",
+            "name": "constant.language.boolean.sqf"
         }
     },
     "scopeName": "source.yorlang"
