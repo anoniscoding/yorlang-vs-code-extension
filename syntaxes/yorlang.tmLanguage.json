@@ -16,6 +16,9 @@
         },
         {
             "include": "#numLiteral"
+        },
+        {
+            "include": "#variable"
         }
     ],
     "repository": {
@@ -44,6 +47,10 @@
         "numLiteral": {
             "match": "([0-9]+)\\b",
             "name": "constant.numeric.yorlang"
+        },
+        "variable": {
+            "match": "(([a-zA-Z]|í|é|ì|ò|è|ọ|ṣ|ẹ|ó|à|á|ú)+)\\b",
+            "name": "variable.other.yorlang"
         }
     },
     "scopeName": "source.yorlang"
