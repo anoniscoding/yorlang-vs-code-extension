@@ -23,17 +23,17 @@ class YorlangAutoComplete implements vscode.CompletionItemProvider {
         const nígbàtí = new vscode.CompletionItem("nígbàtí", vscode.CompletionItemKind.Keyword);
         const sọpé = new vscode.CompletionItem("sọpé", vscode.CompletionItemKind.Keyword);
         const tàbí = new vscode.CompletionItem("tàbí", vscode.CompletionItemKind.Keyword);
-        const òótó = new vscode.CompletionItem("òótó", vscode.CompletionItemKind.Keyword);
-        const iró = new vscode.CompletionItem("iró", vscode.CompletionItemKind.Keyword);
-        const iṣé = new vscode.CompletionItem("iṣé", vscode.CompletionItemKind.Keyword);
+        const òótọ́ = new vscode.CompletionItem("òótọ́", vscode.CompletionItemKind.Keyword);
+        const irọ́ = new vscode.CompletionItem("irọ́", vscode.CompletionItemKind.Keyword);
+        const iṣẹ́ = new vscode.CompletionItem("iṣẹ́", vscode.CompletionItemKind.Keyword);
         const fún = new vscode.CompletionItem("fún", vscode.CompletionItemKind.Keyword);
         const padà = new vscode.CompletionItem("padà", vscode.CompletionItemKind.Keyword);
         const kúrò = new vscode.CompletionItem("kúrò", vscode.CompletionItemKind.Keyword);
         const ṣé = new vscode.CompletionItem("ṣé", vscode.CompletionItemKind.Keyword);
         const yí = new vscode.CompletionItem("yí", vscode.CompletionItemKind.Keyword);
-        const ẹjó = new vscode.CompletionItem("ẹjó", vscode.CompletionItemKind.Keyword);
+        const irú = new vscode.CompletionItem("irú", vscode.CompletionItemKind.Keyword);
         const padàsí = new vscode.CompletionItem("ṣé", vscode.CompletionItemKind.Keyword);
 
-        return [tí, nígbàtí, sọpé, tàbí, òótó, iró, iṣé, fún, padà, kúrò, ṣé, yí, ẹjó, padàsí]
+        return [tí, nígbàtí, sọpé, tàbí, òótọ́, irọ́, iṣẹ́, fún, padà, kúrò, ṣé, yí, irú, padàsí]
     }
 }
