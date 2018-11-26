@@ -32,7 +32,7 @@ class YorlangAutoComplete implements vscode.CompletionItemProvider {
         const ṣé = new vscode.CompletionItem("ṣé", vscode.CompletionItemKind.Keyword);
         const yí = new vscode.CompletionItem("yí", vscode.CompletionItemKind.Keyword);
         const irú = new vscode.CompletionItem("irú", vscode.CompletionItemKind.Keyword);
-        const padàsí = new vscode.CompletionItem("ṣé", vscode.CompletionItemKind.Keyword);
+        const padàsí = new vscode.CompletionItem("padàsí", vscode.CompletionItemKind.Keyword);
         const gbewọlé = new vscode.CompletionItem("gbewọlé", vscode.CompletionItemKind.Keyword);
 
         const síLẹ́tàkékeré = new vscode.CompletionItem("síLẹ́tàkékeré", vscode.CompletionItemKind.Function);
