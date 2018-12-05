@@ -59,7 +59,8 @@ class YorlangAutoComplete implements vscode.CompletionItemProvider {
 
         return [
             jẹ́kí, jeki, nígbàtí, nigbati, sọpé, sope, tàbí, tabi, òótọ́, ooto,
-            irọ́, iro, iṣẹ́, ise, fún, fun, padà, pada, kúrò, kuro, ṣé, se, yí, yi, irú, iru, padàsí, padasi, gbewọlé, gbewole, wòkè, woke, síLẹ́tàkékeré, ka, síLẹ́tàŃlá
+            irọ́, iro, iṣẹ́, ise, fún, fun, padà, pada, kúrò, kuro, ṣé, se, yí, yi, 
+            irú, iru, padàsí, padasi, gbewọlé, gbewole, wòkè, woke, síLẹ́tàkékeré, ka, síLẹ́tàŃlá
         ];
     }
 }
