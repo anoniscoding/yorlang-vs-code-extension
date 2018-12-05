@@ -55,12 +55,13 @@ class YorlangAutoComplete implements vscode.CompletionItemProvider {
         const síLẹ́tàkékeré = new vscode.CompletionItem("síLẹ́tàkékeré", vscode.CompletionItemKind.Function);
         const síLẹ́tàŃlá = new vscode.CompletionItem("síLẹ́tàŃlá", vscode.CompletionItemKind.Function);
         const ka = new vscode.CompletionItem("ka", vscode.CompletionItemKind.Function);
+        const tèSíbí = new vscode.CompletionItem("tèSíbí", vscode.CompletionItemKind.Function);
 
 
         return [
             jẹ́kí, jeki, nígbàtí, nigbati, sọpé, sope, tàbí, tabi, òótọ́, ooto,
             irọ́, iro, iṣẹ́, ise, fún, fun, padà, pada, kúrò, kuro, ṣé, se, yí, yi, 
-            irú, iru, padàsí, padasi, gbewọlé, gbewole, wòkè, woke, síLẹ́tàkékeré, ka, síLẹ́tàŃlá
+            irú, iru, padàsí, padasi, gbewọlé, gbewole, wòkè, woke, síLẹ́tàkékeré, ka, síLẹ́tàŃlá, tèSíbí
         ];
     }
 }
