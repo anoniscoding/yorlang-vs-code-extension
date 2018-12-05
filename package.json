@@ -65,6 +65,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Microsoft/vscode-wordcount.git"
+        "url": "https://github.com/anoniscoding/yorlang-vs-code-extension"
     }
 }
